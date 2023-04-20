@@ -1,4 +1,4 @@
-package Ejercicios_tema_4;
+package Curso_de_Introducción_a_la_programación;
 
 public class Ejercicios_tema_4 {
 

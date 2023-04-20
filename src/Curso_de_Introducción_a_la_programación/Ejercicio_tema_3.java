@@ -1,8 +1,8 @@
-package Ejercicios_tema_4;
+package Curso_de_Introducción_a_la_programación;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
-public class Main {
+public class Ejercicio_tema_3 {
     public static void main(String[] args) {
         int resultado =suma(1,4,5);
         car clio=new car();
