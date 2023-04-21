@@ -2,7 +2,7 @@ package Curso_de_Introducción_a_la_programación;
 
 public class Ejercicios_tema_4 {
 
-    public static void Ejercicios_tema_4(String[] args){
+    public static void main(String[] args){
         int numero= 0;
         if (numero <0){
             System.out.println("El numero "+numero+" es negativo");
