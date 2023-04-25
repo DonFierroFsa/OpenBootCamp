@@ -4,7 +4,7 @@ public class Ejercicios_tema_8 {
 
     public static void main (String[] args) {
 
-        Persona Alumno = new Persona();
+        persona Alumno = new persona();
         Alumno.setEdad(32);
         Alumno.setNombre("Adrian");
         Alumno.setTelefono("3704094515");
@@ -16,7 +16,7 @@ public class Ejercicios_tema_8 {
     }
 }
 
-class Persona {
+class persona {
     private int edad;
     public void setEdad(int edad){
         this.edad = edad;
