@@ -26,6 +26,7 @@ public class TiposDeDatos__PalabrasReservadas {
         Integer Null= null ;
         Long NumeroNull = null;
         Long Numero=3439494994494949L;
+        System.out.println( Numero);
 
         //Palabras Reservadas  java.key.words
 
