@@ -1,7 +1,7 @@
-package Java_Basico.company.Carss.Interface;
+package Java_Basico.company.Poo.Carss.Interface;
 
-import Java_Basico.company.Carss.Car;
-import Java_Basico.company.Carss.ElectricCar;
+import Java_Basico.company.Poo.Carss.Car;
+import Java_Basico.company.Poo.Carss.ElectricCar;
 
 public class ServiceCarSportImpl implements ServiceCar{
 

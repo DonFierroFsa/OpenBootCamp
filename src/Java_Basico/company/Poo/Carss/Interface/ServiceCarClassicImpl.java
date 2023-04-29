@@ -1,7 +1,7 @@
-package Java_Basico.company.Carss.Interface;
+package Java_Basico.company.Poo.Carss.Interface;
 
-import Java_Basico.company.Carss.Car;
-import Java_Basico.company.Carss.ElectricCar;
+import Java_Basico.company.Poo.Carss.Car;
+import Java_Basico.company.Poo.Carss.ElectricCar;
 
 public class ServiceCarClassicImpl implements ServiceCar { /*Las clases que implentan interfaces estan
                                 obligados a dar un cuerpo a los metodos de Interface*/
