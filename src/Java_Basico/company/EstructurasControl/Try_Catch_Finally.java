@@ -1,4 +1,4 @@
-package Java_Basico.company;
+package Java_Basico.company.EstructurasControl;
 
 public class Try_Catch_Finally {
     public static void main(String[] args) {

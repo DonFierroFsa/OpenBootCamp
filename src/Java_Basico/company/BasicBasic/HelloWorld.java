@@ -1,4 +1,4 @@
-package Java_Basico.company;//Indica a que paquete corresponde
+package Java_Basico.company.BasicBasic;//Indica a que paquete corresponde
 
 public class HelloWorld {
     //Creo un metodo main publico. String args es un array que quiere decir que puede recibir datos por la entrada

@@ -9,20 +9,20 @@ public class Maps {
 
         Map<String, Integer> dni = new HashMap<>();
 
-        dni.put("Adrian",35678818);
-        dni.put("Lisbel",11945424);
+        dni.put("Adrian", 35678818);
+        dni.put("Lisbel", 11945424);
 
-        for(Integer key: dni.values()){
+        for (Integer value : dni.values()) {
+            System.out.println(value);
+        }
+        for (String key : dni.keySet()) {
             System.out.println(key);
         }
-        for (String key: dni.keySet()){
-            System.out.println(key);
-        }
-        for (Map.Entry<String,Integer> par :dni.entrySet()){
+        for (Map.Entry<String, Integer> par : dni.entrySet()) {
             System.out.println(par);
         }
-        for(Map.Entry<String,Integer> par: dni.entrySet()){
-            System.out.println(par.getKey()+" Su DNI es "+ par.getValue());
+        for (Map.Entry<String, Integer> par : dni.entrySet()) {
+            System.out.println(par.getKey() + " Su DNI es " + par.getValue());
         }
 
 

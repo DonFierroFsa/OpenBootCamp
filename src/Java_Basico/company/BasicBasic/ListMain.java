@@ -1,4 +1,4 @@
-package Java_Basico.company;
+package Java_Basico.company.BasicBasic;
 
 import java.util.ArrayList;
 import java.util.List;

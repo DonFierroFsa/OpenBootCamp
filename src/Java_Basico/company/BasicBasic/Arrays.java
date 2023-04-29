@@ -1,4 +1,4 @@
-package Java_Basico.company;
+package Java_Basico.company.BasicBasic;
 
 public class Arrays {
     public static void main(String[] args) {
