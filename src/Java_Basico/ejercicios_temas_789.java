@@ -66,10 +66,10 @@ public class ejercicios_temas_789 {
             }
         }
         //Funcion DividePorCero --- TRY CATCH
-        divide(6,0);
+        divide(6, 0);
 
         //InputStream y PrintStream
-        copiaFichero("Insterte Ruta de Fichero a copiar","Inserte ruta de fichero copia");
+        copiaFichero("Insterte Ruta de Fichero a copiar", "Inserte ruta de fichero copia");
 
 
     }
@@ -85,7 +85,7 @@ public class ejercicios_temas_789 {
         }
     }
 
-    public static void copiaFichero(String fileIn,String fileOut){
+    public static void copiaFichero(String fileIn, String fileOut) {
         try {
             InputStream fichero = new FileInputStream(fileIn);
             try {
@@ -93,10 +93,10 @@ public class ejercicios_temas_789 {
                 PrintStream copiaFichero = new PrintStream(fileOut);
                 copiaFichero.write(datos);
                 System.out.println("El Fichero se copio correctamente");
-            }catch (IOException e){
+            } catch (IOException e) {
                 System.out.println(e.getMessage());
             }
-        }catch (FileNotFoundException e){
+        } catch (FileNotFoundException e) {
             System.out.println(e.getLocalizedMessage());
         }
 
