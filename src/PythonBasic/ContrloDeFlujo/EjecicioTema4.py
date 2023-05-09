@@ -11,7 +11,7 @@ lista2=[]
 for i in range(1,101):
     lista2.append(i)
 
-lista2.sort(reverse=True)
+lista2=sorted(lista2, reverse=True)
 print(lista2)
 print("Fin Lista2","\n  Comienza lista3")
 lista3=[] ;contador3=1
