@@ -13,10 +13,5 @@ for i in range(1,101):
 
 lista2=sorted(lista2, reverse=True)
 print(lista2)
-print("Fin Lista2","\n  Comienza lista3")
-lista3=[] ;contador3=1
-if contador3>=1:
-    lista3.append(contador3)
-    contador3+=1
 
-print("lista 3\n",lista3)
+
