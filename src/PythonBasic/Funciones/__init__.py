@@ -38,3 +38,18 @@ def saludo3(**kwargs):
 
 saludo3(nombree="Adrian")
 
+nombre="Adrian"
+def crearApodo(apodo = None) :
+    if apodo is None:
+        apodo=input("Ingrese el apodo\n")
+        global nombre
+        nombre = apodo
+        print("el nombre a cambiado por")
+    else:
+        nombre = apodo
+        print("el apodo en codigo a sido ingresado y es ")
+
+crearApodo("Chino")
+print(nombre)
+
+
