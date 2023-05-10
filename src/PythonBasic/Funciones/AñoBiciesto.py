@@ -1,4 +1,4 @@
-def añoBiciesto(año=input("No introdujiste un año\n introducelo a continuacion\n")):
+def añoBiciesto(año=input("Introduce un año para saber si es Biciesto\n")):
 
     if año.isdigit():
         año = int(año)
@@ -10,4 +10,4 @@ def añoBiciesto(año=input("No introdujiste un año\n introducelo a continuacio
         print("año no valido")
 
 
-añoBiciesto()
+
