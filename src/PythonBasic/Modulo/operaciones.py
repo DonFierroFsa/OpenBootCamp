@@ -6,3 +6,4 @@ def multiplicar(a,b):
     return a*b
 def dividir(a,b):
     return a/b
+print("Se han importado las funciones del modulo OPERACIONES")
