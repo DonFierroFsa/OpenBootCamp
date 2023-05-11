@@ -24,7 +24,7 @@ def acumulador(*args):##Tengo una TUPLA
 
 operacionesMatematicas(2,5)
 operacionesMatematicas(b=0,a=42)##Parametros en el orden que me da la
-acumulador(1,2,3,4,5,6,7,8)
+acumulador(1,2,3,4,5,6,7,88)
 saluda()
 nombre=input("Dime cual es tu nombre?\n")
 saluda(nombre)
