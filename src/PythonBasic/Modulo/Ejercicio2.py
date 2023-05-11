@@ -16,3 +16,6 @@ def Alarma(horaSalida=int(input("Ingrese hora de salida\n"))):
             segSobrantes =  localtime().tm_sec
             print("Timepo extra trabajado =","\nHoras ",hSobrantes,"\nMin ",minSobrantes,"\nSeg ",segSobrantes)
         time.sleep(5)
+        exit="Y"
+        if exit==input("Ingrese ""Y"" para salir\n"):
+            break
