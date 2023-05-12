@@ -1,3 +1,4 @@
+#Forma VIEJA DE IMPRIMIR DATOS POR PANTALLA
 numero=18
 cadena="CADENA"
 float=3.14
