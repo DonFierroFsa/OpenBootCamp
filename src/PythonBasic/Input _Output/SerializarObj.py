@@ -23,10 +23,10 @@ class Vehiculo:
 miAuto = Vehiculo("Uno", "Fiat", 320)
 print(miAuto)
 miAuto.arranca()
-f = open("MiAuto.bin", "wb")
+f = open("MiAuto", "wb")
 pickle.dump(miAuto,f)
 f.close()
-o = open("MiAuto.bin", "rb")  # Importante que sean datos binarios RB
+o = open("MiAuto", "rb")  # Importante que sean datos binarios RB
 auto = pickle.load(o)
 o.close()
 print(auto)
