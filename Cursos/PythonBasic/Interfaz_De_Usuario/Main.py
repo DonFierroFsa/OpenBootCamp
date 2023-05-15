@@ -11,6 +11,6 @@ window.mainloop()#Ahora si se ve la ventana
 
 #pack
 # grid
-# y place
+# place
 
 # las geometrias van antes del LOOP
