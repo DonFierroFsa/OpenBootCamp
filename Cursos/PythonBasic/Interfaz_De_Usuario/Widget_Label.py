@@ -1,6 +1,5 @@
-# Sirve para crear una etiqueta
-
-import tkinter
+#Geo PACK sirve para posicionar etiquetas, botones, etc
+import tkinter # Sirve para crear una etiqueta
 
 window = tkinter.Tk()  # Creo la ventana
 

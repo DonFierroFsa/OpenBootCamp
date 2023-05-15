@@ -8,7 +8,7 @@ window.columnconfigure(0, weight=1)  # configuro la cantidad de columnas y filas
 window.columnconfigure(1, weight=3)
 ## Username
 # Username Label
-username_label = ttk.Label(window, text="USER NAME:")
+username_label = tkinter.Label(window, text="USER NAME:",bg="blue")#USE TKINTER en ves de TTK para bg BLUE
 username_label.grid(column=0, row=0,  # Elijo en que coordenanda esta
                     sticky=tkinter.W,  # Elijo su ubicacion como si fuera una brujula: "East","West","North",etc
                     padx=5, pady=5)  # Elijo el tamaño
