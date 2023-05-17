@@ -1,6 +1,9 @@
 import sqlite3
+
+
+
 #Creo y conecto con el archivo Alumnos.db
-conn = sqlite3.connect("Almumnos.db")
+conn = sqlite3.connect("Alumnos.db")
 
 cursor = conn.cursor()
 
@@ -21,7 +24,11 @@ data_alumnos=[("Adrian","Rivira"),("Mariana","Rivira"),("Graciela","Rivira"),("E
 
 #Aclaro que voy a insertar solo dos elementos, dejando fuera el ID que se incrementa solo
 cursor.executemany("INSERT INTO alumnos ('nombre','apellido')VALUES (?,?)",data_alumnos)
+conn.commit()
 query=cursor.execute("SELECT * FROM alumnos WHERE nombre='Adrian'")
 print(query.fetchall())
+
+
+
 cursor.close()
 conn.close()
