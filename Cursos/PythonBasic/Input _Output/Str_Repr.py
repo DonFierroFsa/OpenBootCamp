@@ -14,4 +14,6 @@ class Juguete:  # las clases empiezan con MAYUSCULA
 
 j1 = Juguete("GOKU", 10000)
 print(repr(j1))
-print(str(j1),"\nes igual sin el str gracias al metodo __STR__",j1)
+print(str(j1),
+      "\nes igual sin el str gracias al metodo __STR__",
+      j1)

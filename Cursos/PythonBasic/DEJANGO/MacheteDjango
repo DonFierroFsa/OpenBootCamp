@@ -1,0 +1,69 @@
+Consola: cd /Directorio ___ cd ../ ___ cls: para limpiar ___ cerrar-->ctrl+c o ^C
+
+1- Instalara packete django --> pip install django ___ pipenv install django
+
+2-Crear projecto --> django-admin startproject DJANGO (agrega un pto al final para evitar la Sub carpeta)
+
+3_ Base de datos: DEJANGO* --> settings.py --> DATABASES --> por defecto es sqlite3, puede ser cualquiera MYSQL
+
+4-Levanto servidor web y pruebo conexion a base de datos : python manage.py runserver
+
+5-Creo app (para ttodo, y no hacer codigo en proyecto) --> python manage.py startapp nombreApp
+
+6-Conectar mi proyecto con mi app :
+                                    A_DEJANGO --> settings.py
+                                    B_INSTALLED_APPS = [ ,'nombreApp.apps.NombreappConfig',]
+
+7-Conectar la ruta o vista :
+                            A_ DEJANGO -->urls.py
+                            B_ urlpatterns = [
+                                    path('admin/', admin.sit.urls),
+                                    path('catalogo/', include('catalogo.urls'))
+                                    ] from django.urls import include
+
+8-Creo un urls.py en "catalogo" : -->
+                                        from django.urls import re_path
+                                        from .(importa de la misma carpeta) import views.py
+                                        urlpatterns = []
+
+9-Preparo base de datos : DEJANGO --> python manage.py makemigrations --> python manage.py migrate(ejecuta cambios)
+
+10-Panel de Administracion localhost:8000/admin
+
+11-Creo SUPERusario : DEJANGO --> python manage.py createsuperuser ... usuario= Admin email= pass=admin
+
+12-Creo modelos en models.py  SIEMPRE EN LAS APPS :
+                                                    *Los modelos (Class son tablas)
+                                                    *author = models.ForeingKey --> Sirve para que los valores los tome ...
+                                                                                    ... de otra tabla
+                                                    *on_delete=models.SET_NULL -->Si se borra el dato serar None y ...
+                                                                                 ...null=True permite al campo permanecer None
+                                                    *tile=models.CharField(max_length=255)
+                                                    *title=model.TextField(max_length=ilimitado)
+                                                    *help_text=("pon aqui de que va el libro")
+                                                    *id= models.UUIDField(primary_key=True, default=uuid.uuid4,...
+                                                                            ...help_text="Id unico para esta pelicula")
+
+13- Registro los modelos en mi panel de administracion :
+        **Importo los modelos a "admin.py" de mi app: ...
+                ...--> from .models(la carpeta models de mi app) import *(Movies, Directores, etc)
+        ** admin.site.register(Directores)
+           admin.site.register(Movie)
+
+------------------______________________________---------------------________________________________--------------------_____
+
+Extra en MODELS :
+
+due_back = models.DateField(null=True, blank=True)
+
+          View_Status = (View_Status = (
+        ("VG", "Muy Buena"),
+        ("G", "Buena"),
+        ("R", "Regular"),
+        ("B", "Mala"),
+        ("VB", "Muy Mala")
+    )
+status = models.CharField(max_length=2, choices=View_Status, blank=True, help_text="Calificacion de la pelicula",
+                              default="R")
+
+______________________________________________________________________
