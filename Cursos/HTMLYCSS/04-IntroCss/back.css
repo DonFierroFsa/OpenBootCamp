@@ -1,0 +1,16 @@
+.river{
+    color:aliceblue;
+    background-color: red;
+    border-style:dashed;
+    border-top: none;
+    /*Los valores van como el reloj*/
+    padding: 10px 20px;
+    margin: 30px;
+}
+.boca{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcz3oUMoomGQSaf1BFJA87mj8s9orwjCmOuQ&usqp=CAU");
+    background-position:center center;
+    width:240px;
+    height: 250px;
+        
+}

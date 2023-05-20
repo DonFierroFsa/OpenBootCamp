@@ -1,0 +1,21 @@
+h1{
+    color:red;
+}
+/*Estoy comentando que rgbalpha es para la transparencia*/
+.hdecimal{
+    color: rgba(6, 239, 2, 0.5);
+    font-size:33pt;
+}
+/* ESto es una class*/
+.sub-titulo{
+    color:chartreuse
+}
+/*ESto es con ID*/
+#sub-parrafo{
+    font-style: italic;
+}
+h3,h4,h5{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25pt;
+    text-decoration: underline;
+}
