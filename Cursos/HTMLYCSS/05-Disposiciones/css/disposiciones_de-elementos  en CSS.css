@@ -1,0 +1,10 @@
+.img-galeria{
+    width: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap:15px;
+    justify-content: space-between;
+}
+.img{
+    border: 2px dashed rgb(0, 0, 0);
+}

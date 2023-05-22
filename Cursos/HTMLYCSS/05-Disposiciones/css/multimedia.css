@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.img-principal{
+    width: 100vw;
+    height: 100vw;
+    opacity: 0.5;
+}
+.galeria{
+    position: fixed;
+    top:0px;
+    right: 50vw;
+    display: flex;
+    flex-wrap: initial;
+    gap:30px;
+}
+.galeria :hover{
+    position: relative;
+    width: 75vw;
+    height:75vw;
+}
+.img-galeria{
+    width: 50px;
+    height: 75px;
+}

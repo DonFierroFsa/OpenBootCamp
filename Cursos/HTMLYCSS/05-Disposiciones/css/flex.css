@@ -1,0 +1,27 @@
+.flex{
+    background-color: rgba(9, 62, 62, 0.614);
+    height:300px;
+    display: flex;
+    flex-direction: columm;
+    justify-content:space-around;
+    flex-wrap:nowrap ;
+    align-items: center;
+}
+.cont1{
+    background-color: rgb(124, 250, 13);
+    height: 200px;
+    width:300px;
+    border:1px solid darkblue;
+}
+.cont2{
+    background-color: aliceblue;
+    height: 200px;
+    width:300px;
+    border:1px solid darkblue;
+}
+.cont3{
+    background-color: aliceblue;
+    height: 200px;
+    width:300px;
+    border:1px solid darkblue;
+}

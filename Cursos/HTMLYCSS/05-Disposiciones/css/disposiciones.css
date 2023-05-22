@@ -1,0 +1,15 @@
+.titulo{
+    color:rgb(184, 105, 26) 
+}
+.img{
+    width: 300px;
+    height:350px;
+}
+.idimg{
+    color:aqua;
+    font-size: 20px;
+    float:calc(15,2,30) ;
+    background-color: rgb(193, 8, 15);
+    position: relative;
+    bottom: 150px;
+}

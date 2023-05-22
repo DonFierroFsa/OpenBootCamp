@@ -1,0 +1,32 @@
+.contenedor-hidden{
+    background-color: aqua;
+    width: 250px;
+    height: 100px;
+    overflow: hidden;
+    padding: 55px;
+}
+.contenedor-scroll{
+    margin-top: 10px;
+    background-color: aqua;
+    width: 250px;
+    height: 100px;
+    overflow: scroll;
+    padding: 55px;
+}
+.contenedor-visible{
+    margin-top: 10px;
+    background-color: aqua;
+    width: 250px;
+    height: 100px;
+    overflow: visible;
+    padding: 55px;
+}
+.contenedor-auto{
+    margin-top: 10px;
+    margin-left: 300px;
+    background-color: aqua;
+    width: 250px;
+    height: 100px;
+    overflow: auto;
+    padding: 55px;
+}
