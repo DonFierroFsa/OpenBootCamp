@@ -1,10 +1,34 @@
-.img-galeria{
-    width: 300px;
+.videofondo{
+    width: 100vw;
+    height: 100vh;
+    position:fixed;
+    object-fit: cover;
+}
+.img-galeria{    
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap:15px;
-    justify-content: space-between;
+    justify-content:space-between;
+    overflow: scroll;
+    z-index: 2;
 }
 .img{
     border: 2px dashed rgb(0, 0, 0);
+    opacity: 0.5;
+    width: 300px;
+}
+.img:hover{
+    opacity:1;
+    width: 4p50x;
+    height: 450px;
+    z-index: 2;
+}
+h1{
+    font-family: monospace;
+    color: blue;
+    background-color: darkred;
+    position: fixed;
+    top:0px;
+    left: 50vw;
+    z-index: 3;
 }
