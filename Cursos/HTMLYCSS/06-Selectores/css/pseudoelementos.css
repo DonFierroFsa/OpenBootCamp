@@ -1,0 +1,32 @@
+.contenedor{
+    width: 300px;
+    height:100px;
+    color: aquamarine;
+    background-color: darkblue;
+}
+span.frase{
+    font-style: italic;
+}
+span.frase::before{
+    content:'<<';
+    font-size: xx-small;
+}
+span.frase::after{
+    content:'>>';
+    font-size: xx-small;
+}
+.frases{
+    background-color: chartreuse;
+}
+.frases p::first-letter{
+    font-size: 100px;
+    color: red;
+}
+.frases p::selection{
+    font-size: 100px;
+    color: red;
+    background-color: aliceblue;
+}
+.Listado ul li::marker{
+    color: red;
+}

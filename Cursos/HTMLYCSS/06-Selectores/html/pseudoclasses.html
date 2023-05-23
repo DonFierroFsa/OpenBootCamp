@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <title>Pseudo Classes</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .hover{
+            width: 300px;
+            height: 100px;
+            background-color: aqua;
+        }
+        .hover:hover{
+            background-color: red;
+        }
+        .Listado{
+            padding: 14px;
+            background-color: darkorange;
+        }
+        .Listado p:first-child{
+            color:white;
+        }
+        a:link {
+            color:red;
+        }
+        a:visited {
+            color: rgb(17, 22, 159);
+        }
+        a:active{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="hover">
+        <p>Yo me siento con el corazón de un animal,
+            no me importa la visión moral del bien y el mal.
+            
+            No quiero ser conquistador,
+            me suena a contaminador,
+            somos apenas una especie en un millón.
+        </p>
+    </div>
+    <div class="Listado">Comienza el listado
+        <p> parrafo 1</p>
+        <p> parrafo 2</p>
+        <p> parrafo 3</p>
+        <p> parrafo 4</p>
+    </div>
+    <div class="enlace">
+        <a href="https://www.google.com.ar/" target="_blank">enlace a google</a>
+        <br>
+        <a href="https://es.wikipedia.org/wiki/Canis_familiaris" target="_blank">PERROS</a>
+        <br>
+        <a href="https://www.linkedin.com/in/adrian-rivira-4a429a259/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BkVGKEs3VSEimtX8f%2BbWBAQ%3D%3D" target="_blank">ENLACE</a>
+    </div>
+</body>
+</html>

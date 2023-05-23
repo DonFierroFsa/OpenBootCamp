@@ -1,0 +1,9 @@
+#h1-id{
+    color: chartreuse;
+}
+.h1-clase{
+    color: red !important;
+}
+h1{
+    color: blue;
+}
