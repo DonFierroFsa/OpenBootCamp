@@ -1,0 +1,10 @@
+h1{
+    color:red;
+}
+button:hover{
+    color:white;
+    background-color: green;
+}
+button:active{
+    color:red;
+}
