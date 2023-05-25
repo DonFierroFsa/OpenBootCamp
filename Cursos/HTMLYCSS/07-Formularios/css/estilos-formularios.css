@@ -1,0 +1,54 @@
+.input {
+    width: 100%;
+    padding: 5px 10px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.input[type="password"]{
+    color:rgb(49, 180, 23)
+}
+.input-moderno {
+    border:none;
+    border-bottom: 2px solid rgb(215, 215, 228);
+    outline: none ;
+    padding: 5px;
+    color:rgb(215, 215, 228);
+    width: 300px;
+}
+.input-moderno:focus {
+    border-bottom: 3px solid black;
+    
+}
+.input-moderno::placeholder{
+    color:aqua;
+}
+.input-background{
+    background-color: blanchedalmond;
+    border: none;
+    border-radius: 60px;
+    padding: 1px 20px;
+    outline:none;
+    box-shadow: 0 0 30px black;
+}
+.input-search{
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: rgba(235, 238, 240, 0.875);
+    margin: 20px;
+    background-image: url(../../03-Multimedia/imagenes/UBIDP-UltimoBastion\ de\ occidente.jpg);
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position: right;
+    
+}
+textarea{
+    resize:both;
+
+}
+select{
+    padding: 10px;
+    margin: 50px;
+    
+}
