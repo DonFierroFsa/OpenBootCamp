@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-modern{
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(93, 86, 86);
+    color:aliceblue
+}
+.btn-modern:hover{
+    transform: translateY(-5px);
+    border-bottom: 3px solid darkred;
+    background-color: red;
+    color: aqua;
+    transition: 0.4s;
+}

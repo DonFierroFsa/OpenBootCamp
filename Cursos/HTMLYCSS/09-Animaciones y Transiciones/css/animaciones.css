@@ -1,0 +1,47 @@
+.padre{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+.hijo{
+    width: 50%;
+    height: 50%;
+    background-color: beige;
+    transition: all 1s linear 1s ;
+    
+}
+.padre:hover .hijo{
+    transform: translateY(100%);
+    background-color: red;
+}
+.father{
+    width: 500px;
+    height: 350px;
+    background-color: black;
+}
+.son{
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    animation: traslacion 4s infinite;
+}
+.father:hover .son{
+    animation-play-state: paused;
+}
+@keyframes traslacion {
+    0%{
+        background-color: red;
+    }
+    25%{
+        transform: translateX(100%);
+        background-color: yellow;
+    }
+    50%{
+        background-color: rgb(70, 7, 197);
+        transform: translateX(100%) translateY(100%);
+    }
+    75%{
+        transform: translateY(100%);
+        background-color: rgb(12, 168, 48);
+    }
+}
