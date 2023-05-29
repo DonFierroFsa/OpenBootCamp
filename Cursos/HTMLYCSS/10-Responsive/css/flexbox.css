@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh
+}
+.contenedor{
+    background-color: yellow;
+    padding: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-around;
+    align-content:space-around ;
+    flex-wrap: wrap;
+    width: 50vw;
+    height: 50vh;
+
+}
+.item{
+    background-color: rgb(209, 31, 22);
+    padding: 0.25rem;
+    width: 10rem;
+    color: white;
+    font-size: 2rem;
+}

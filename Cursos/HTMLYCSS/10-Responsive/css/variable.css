@@ -1,0 +1,16 @@
+:root{/*Aqui voy a definir las variables*/
+    --color-principal: rgba(126, 229, 255, 0.389);
+    --ancho-principal:40px;
+}
+body{
+    background-color: darkred;
+}
+h1{
+    color:var(--color-principal)
+}
+.footer{
+    color: var(--color-principal);
+}
+.parrafo{
+    font-size: var(--ancho-principal);
+}

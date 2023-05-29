@@ -1,0 +1,20 @@
+h1{
+    color: red;
+    font-size: 4rem;
+}
+p{
+    color: black;
+    font-size: 2rem;
+}
+@media all and (min-width: 500px) {
+    h1{color:aqua}
+    
+}
+@media (min-width:800px){
+    h1{color: chartreuse;}
+}
+@media (orientation:landscape){
+    h1{ color: yellow;}
+    p{ color: tomato;}
+    body{ background-color: black;}
+}
