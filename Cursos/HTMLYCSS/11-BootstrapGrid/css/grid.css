@@ -1,0 +1,19 @@
+.container{
+
+}
+.row div{
+    margin: 0.3rem;
+}
+.col{background-color: aqua;}
+.col-sm{
+    background-color: blue;
+}
+.col-md{
+    background-color: chartreuse;
+}
+.col-xl{
+    background-color: yellow;
+}
+.col-xxl{
+    background-color: tomato;
+}
