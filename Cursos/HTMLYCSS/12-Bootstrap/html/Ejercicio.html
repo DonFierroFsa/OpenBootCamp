@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elementos de Interés en Bootstrap</title>
+    <link rel="stylesheet" href="../css/imagenes.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container bg-secundary mx-1">
+      <div class="bg-ligth m-3 rounded-2">
+        <div class="container">
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#modal1"
+          >
+            MODAL
+          </button>
+          <div class="modal" id="modal1" data-bs-backdrop="static">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">Este es un modal</div>
+                <div class="modal-body">Este es el cuerpo de mi Modal</div>
+
+                <div class="modal-footer">Este es el Footer</div>
+                <button class="btn btn-outline" data-bs-dismiss="modal">
+                  Cerrar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <p class="h2 text-primary text-center bg-light">Formulario</p>
+      <div class="datos bg-dark text-secondary">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" id="nombre" class="form-control" />
+        <label for="telefono" class="form-label mt-2">Telefono</label>
+        <input type="number" id="telefono"class="form-control" />
+        <label for="mensaje" class="form-label" >Mensaje</label>
+        <textarea name="mensaje" id="mensaje" class="form-control" cols="30" rows="5"></textarea>
+      </div>
+    </div>
+    <div class="container m-3">
+        <div class="card rounded-2 bg-success d-flex col-6">
+            <img src="../css/Adrian Pumba.png" alt="Adrian y Pumba" class="cad-img-top rounded-5" style="max-width: 10%;">
+            <div class="car-header fw-bold"><strong>Rivira Lisbel Adrian</strong></div>
+            <div class="car-body" style="border: dashed 2px rgb(4, 95, 4) ">
+                <h5 class="card-title">Descripcion</h5>
+                <p class="card-text">La verdad que soy bastante hdp con los demas. <br> Me gusta el basket, mi perro y el punk</p>
+            </div>
+            <div class="card-footer text-danger fs-6 fw-bold">riviraadrian@email.com</div>
+        </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    const myModal = document.getElementById("myModal");
+    const myInput = document.getElementById("myInput");
+
+    myModal.addEventListener("shown.bs.modal", () => {
+      myInput.focus();
+    });
+  </script>
+</html>
