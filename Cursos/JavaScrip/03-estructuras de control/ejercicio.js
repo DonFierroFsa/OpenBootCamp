@@ -22,3 +22,12 @@ console.log(factorial2,"calulado con while")
 
 //factorial While break and IF
 
+let factorial3 = 1
+
+while (true) {
+    factorial3 *= numero
+    numero--
+    if (numero === 1) break
+}
+console.log(factorial3,"calculado con break")
+
