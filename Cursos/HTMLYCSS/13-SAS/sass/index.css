@@ -1,0 +1,62 @@
+.btn, .btn2 {
+  border: none;
+  background-color: rgb(216, 216, 29);
+  color: red;
+}
+.btn:hover, .btn2:hover {
+  width: 10rem;
+}
+
+.btn2 {
+  background-color: aqua;
+  font-weight: bolder;
+}
+.btn2:hover {
+  width: 4rem;
+  height: 2rem;
+}
+
+body {
+  padding: 0%;
+  margin: 0%;
+}
+
+.container {
+  width: 10;
+  background-color: aqua;
+  min-height: 100%;
+  padding: 0.5rem;
+}
+
+h1 {
+  color: rgb(93, 205, 41);
+  width: 50rem;
+  text-transform: uppercase;
+}
+
+p {
+  color: rgb(93, 205, 41);
+  width: 50rem;
+  text-transform: capitalize;
+}
+
+h2 {
+  color: rgb(93, 205, 41);
+  width: 50rem;
+  text-transform: lowercase;
+}
+
+.listado {
+  padding: 0.3rem;
+  width: 10rem;
+  background-color: chocolate;
+}
+.listado ul {
+  margin: 0.4rem;
+}
+.listado ul li {
+  list-style: lower-roman;
+}
+.listado ul li:hover {
+  font-size: 10rem;
+}/*# sourceMappingURL=index.css.map */

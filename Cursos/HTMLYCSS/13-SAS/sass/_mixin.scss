@@ -1,0 +1,5 @@
+@mixin titulo ($transform:lowercase){
+    color: rgb(93, 205, 41);
+width: 50rem;
+text-transform: $transform;
+}

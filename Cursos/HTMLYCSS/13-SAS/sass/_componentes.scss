@@ -1,0 +1,17 @@
+.btn{
+    border: none;
+    background-color: rgb(216, 216, 29);
+    color:red;
+    &:hover{
+        width: 10rem;
+    }
+}
+.btn2{
+    @extend .btn;
+    background-color: aqua;
+    font-weight: bolder;
+    &:hover{
+        width: 4rem;
+        height: 2rem; 
+    }
+}

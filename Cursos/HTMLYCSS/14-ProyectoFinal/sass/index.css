@@ -1,0 +1,111 @@
+html {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.btn-coinbase {
+  background-color: azure;
+  color: rgb(0, 82, 255);
+  border: none;
+  font-weight: 600;
+  font-size: 1.65rem;
+  border-radius: 2rem;
+}
+
+.btn-main, .btn-main-s {
+  background-color: rgb(32, 53, 239);
+  color: white;
+  width: 9rem;
+  height: 2rem;
+  padding: 0rem;
+  margin: 0rem;
+  border-radius: 1rem;
+  border: none;
+  font-weight: bold;
+  border: dotted 1px rgb(32, 53, 239);
+}
+.btn-main:hover, .btn-main-s:hover {
+  opacity: 0.8;
+  box-shadow: 0 0 10px rgb(61, 61, 220);
+}
+.btn-main-s {
+  padding: 0.1rem 1rem;
+  font-weight: bold;
+}
+
+.btn-sec {
+  background-color: rgb(32, 53, 239);
+  color: white;
+  width: 9rem;
+  height: 2rem;
+  padding: 0rem;
+  margin: 0rem;
+  border-radius: 1rem;
+  border: none;
+  font-weight: bold;
+  border: dotted 1px rgb(32, 53, 239);
+  background-color: rgb(51, 129, 255);
+  color: whitesmoke;
+  font-weight: 450;
+  border-radius: 1xrem;
+  padding: 0.1rem 0.75rem;
+}
+.btn-sec:hover {
+  opacity: 0.6;
+}
+
+.main-menu {
+  margin: 1rem;
+  display: inline-flex;
+  justify-content: space-around;
+  width: 100%;
+  border-bottom: solid 1px black;
+}
+.main-menu ul {
+  margin: 0rem;
+  padding: 0rem;
+  list-style: none;
+}
+.main-menu ul li {
+  display: inline;
+  padding: 0rem 1rem;
+  margin: 1rem 0rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.main-menu ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.icon-sm i {
+  font-size: 1.5rem;
+  color: rgb(32, 53, 239);
+  border: 2px solid rgb(32, 53, 239);
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 139, 0.366);
+}
+
+.feature {
+  margin: 8rem 6rem;
+  display: flex;
+  flex-direction: column;
+}
+.feature .icon {
+  font-size: 1.25rem;
+}
+.feature .icon i {
+  color: white;
+  background-color: rgb(32, 53, 239);
+  border-radius: 100%;
+}
+.feature .icon span {
+  font-weight: 500;
+  color: rgb(32, 53, 239);
+}
+.feature .icon span:hover {
+  -webkit-text-decoration: underline 1.5px double blue;
+          text-decoration: underline 1.5px double blue;
+}
+do .nav {
+  display: flex;
+}/*# sourceMappingURL=index.css.map */
