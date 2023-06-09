@@ -5,9 +5,6 @@ function allwaytrue(){ return 2<32}
 console.log(allwaytrue())
 
 // - Una función asíncrona que utilice un setTimeout y pase por consola un "Hola soy una promesa" 5 segundos después de haberse ejecutado
-function Asincrona (){
-}
-
 const miPromesa = new Promise((resolve,reject) =>{
     if(true){
         resolve()
@@ -27,7 +24,7 @@ setTimeout(() => {console.log("second message")},1000)
 function* idPairGenerator (){
     let id=2;
     while(true){
-        id=id+2;
+        id +=2;
         if(id==20){
             return id
         }
