@@ -1,0 +1,16 @@
+node index.js para inicializar un archivo
+
+npm init para crear el package.json
+npm init -y para que rellene todo package.json
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },  
+  cambiar TEST por Start : "node index.js"
+
+   "description": "",
+  "main": "index.js",
+  "type": "module",  ==> agregar eso para poder hacer uso del export import 
+
+  //npm porqueria para instalar librerias 
+  AXIOS es una libreria que nos permite hacer llamadas http a dif. servidores o direcciones url, 
