@@ -4,13 +4,16 @@ class Estudiante {
         this.asignatura=[asignatura1,asignatura2,asignatura3];
     }
     obtenerDatos(){
-        return objet={
+        const  object={
             nombre:this.nombre,
             asignatura1:this.asignatura
         }
+        return object;
     }
 }
 
 const adrian = new Estudiante("Adrian","JavaScrip","HTML","CSS")
 
 console.log(adrian)
+
+console.log(adrian.obtenerDatos())
