@@ -1,0 +1,17 @@
+//npm init -y ##Instala el package.json
+//npm install --save-dev eslint ##Instala el eslint
+//Creo un index.js
+//npm init @eslint/config
+//Override ,
+        "no-unused-vars":"off"## //sobreescribir reglas
+
+/*Automatizar correccion de errores:
+    1-Creo un Scrip en el package.json "scripts": {
+                                        "lint": "eslint ."  el punto es para que me analize todos los archivos 
+                                        y sino poner solo index.js
+    2-Para ejecutar --> npm run lint
+    3-Creo un nuevo scrip para automatizar ;    
+                                "scripts": {
+                                    "lint": "eslint .",
+                                    "lint-fix":"eslint --fix ."
+*/
