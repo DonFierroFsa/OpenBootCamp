@@ -1,0 +1,19 @@
+.seccion{
+    background-color: blue;
+    padding: 1rem;
+    margin: 1rem;
+}
+.parrafo{
+    background-color: white;
+    padding: 1rem;
+}
+.parrafo.draggin{
+    opacity: 0.2;
+}
+.imagen{
+    height: 25%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 100vw;
+    display: flex;
+}
