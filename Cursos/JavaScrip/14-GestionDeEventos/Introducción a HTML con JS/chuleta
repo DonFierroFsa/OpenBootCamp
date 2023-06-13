@@ -1,0 +1,12 @@
+/*creo el archivo.html y el archivo.js
+//importo el scrip como <script src ="archivo.js"></script>
+//hago un npm init porque necesito el .JSON
+
+// Eventos: son circunstancias que le ocurren a diferentes objetos o variables dentero de nuestro programa.
+Por Ejemplo  : un click, un submit, etc
+
+//La palabra reservada "bind()" sirve para vincular por ejemplo un funcion para por pantalla this, a un objeto, quedaria...
+pasaPorPantall.bind(objeto), y pasaria por pantalla el objeto. Es decir BIND es para vincular
+
+//Eventos por defecto: todos los eventos tienen comportamiento por defecto
+*/
