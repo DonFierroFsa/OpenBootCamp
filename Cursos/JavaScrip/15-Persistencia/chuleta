@@ -1,0 +1,1 @@
+//Persistencia: por ejemplo cuando elijo el modo oscuro, entonces el navegador guarda esa preferencia dentro del navegador para no tener que estar pidientode que actualizes los ajustes. Ahorra recursos guardando datos de preferencias de configuracion.
