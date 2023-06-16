@@ -1,0 +1,28 @@
+Componente es un elemento reutilizable
+    Comp.Estaticos; que no tienen variables    
+    Com.Reac; que son reactivos que reaccionan a eventos, contenido variable, dinamicos,etc.
+Los componentes son autocontenidos pero pueden tener relaciones con otros componenetes, porque lo que hay que establecer una JERARQUIA de COMPONENTES
+Componentes puros: sencillos que no tengan demasiada logica o complejidad. Para ello se usan las PROPS.
+    Las props que es pasar info de padres a hijos
+
+EXTENCIONES INSTALL:
+    BabelJavaScript: poner colores a nuestro codigo;
+    Better Comment:para comentar;
+    Bootstrap
+    Better Comments; atajos en react
+    ESLint para ser mas prolijos por ejemplo 
+        ; al final de cada linea
+        que no existan imports que no se utilicen
+        que no se utilicen comonentes tipo clase, sino solo componenetes tipo funcion
+    Image preview;previsualizar imagenes
+    Material Icon Theme; iconos para las carpetas
+    JEST-JEST RUNNER JEST TEST EXPLORER; Lo uso al final, permiten ejecutar manualmente script de test
+    JS JSX Snippets; automatiza creacion de componentes
+    npm; dar soporte de npm 
+    Path Intellisense; para autocompletar rutas dentro de nuestro proyecto
+    **Version Lens; analiza el package.json para saver en que version estamos
+    **Live Share; como un discord de GitHub
+
+
+
+

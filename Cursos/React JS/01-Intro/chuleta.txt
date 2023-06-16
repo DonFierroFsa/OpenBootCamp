@@ -1,0 +1,22 @@
+SPA (single page application) es una forma de desarrollo web en la que la pagina web esta contenida en un unico archivo html.
+    Mientras vamos navegando se iran solicitando los contenidos al servidoor , asi se mejoran los tiempos de respuesta.
+
+React Js es una libreria de JS para crear "interfaces de usuarios". Funciona con JS o TypeScrip
+    Es de codigo abierto, detras esta Facebook y un poc AirbnBi
+        _Ventajas : Velocidad, se consgiue con un "DOM VIRTUAL";
+        _Componentes o bloques, permiten separar la interfaz de usuario en piezas independientes y reutilizables;
+        _Desarrollo Declarativo, La app global y los componentes tiene un estado propio por eso es declarativa
+            Los componentes van a ser clases o funciones y cada una tiene ambito especifico;
+        _Anidacion de Componentes(Componentes de tipo puro y tipo contenedor), los elementos de orden superior propagan datos a los de o. inferior;
+            La comunicacion entre ellos es unidireccional y se utilizan "eventos" para que los elementos de O.S. reconozcan los de O.I.
+        _Isomorfismo,;
+        _Agilidad de desarrollo, dispones de todo lo que nos ofrece "jQuery".
+Para trabajar con React usamos NodeJS, el entorno de ejecucion mas conocido de JavaScript
+
+cmd node --version ==> para saber que version tengo instalada
+cmd npm --version ==> npm es el gestor de packetes node
+C:\Users\USUARIO>npm i --global create-react-app  ==>--global es para poder usar en cualquier carpeta 
+
+C:\Users\USUARIO>where create-react-app
+C:\Users\USUARIO\AppData\Roaming\npm\create-react-app
+C:\Users\USUARIO\AppData\Roaming\npm\create-react-app.cmd

@@ -1,0 +1,4 @@
+Vamos a colocar aqui las rutas de nuestro proyecto.
+Recordemoso que un SPA es basicamente un html que renderiza diferentes contenidos segun las routes que tengamos.
+Entonces aqui estableceremos que route va con que componente, por ejemplo la home page,/home debe caragar el compomenente homepage.jsx.
+Por lo tanto tenemos que tener una carpeta pages
