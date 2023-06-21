@@ -1,0 +1,11 @@
+Agregar al proyecto un archivo(.editorconfig) y una carpeta(docs).
+
+    .editorconfig: recomendado cuando trabajo con VSC. Nos permite configurar como se va a desarrollar el identado,
+        el tamaño de los espacios,el charset o tipo de texto(ñ y demas), el caracter de  final de linea, etc.
+        Hay que instalar desde extensiones.
+
+
+HOOKS: son funciones que especifican mecanimos para trabajar con componentes funcionales.
+    Mientras que los componenetes tipo clases tienen un estado privado un constructor, es decir una serie de metodos al extender
+     de Components de React, los rfc que son basicamente una funcion que devuelve un html con Js embebido, necesitamos un mecanimos
+     que nos ayude a trabajar con States, estos son los HOOKS. 

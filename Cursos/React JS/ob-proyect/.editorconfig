@@ -1,0 +1,6 @@
+indent_style = tab 
+tab_width = 2 //La tabulacion va a ocupar dos espacios
+end_of_line = lf //Al final de la linea sea un lf
+insert_final_newline = true //Al final de cualquier archivo se introduce automaticamente un salto de linea
+charset = utf-8 //*Sirve para poder poner ñ, tildes, etc */
+trim_trailing_whitespace = true //Si dejamos un espacio al final de cada linea, lo va a eliminar

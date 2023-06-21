@@ -1,0 +1,1 @@
+Aqui contener archivos js o jsx, es decir componentes que rendericen una pagina a la que podamos navegar.
