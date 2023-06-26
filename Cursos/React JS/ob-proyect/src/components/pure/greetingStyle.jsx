@@ -4,7 +4,7 @@ import React,{useState} from 'react';
 //Definiendo estilos en constantes
 
     const loggedStyle={
-        color:"white",
+        color:"blue",
 
     }
 
