@@ -7,7 +7,7 @@ const ContactForm = ({add}) => {
     function addContact(e){
         e.preventDefault();
         const newContact= {
-            name:nameRef.current.values,
+            name:nameRef.current.value,
             email:emailRef.current.value
         }
         add(newContact)

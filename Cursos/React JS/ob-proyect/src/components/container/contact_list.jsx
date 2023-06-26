@@ -48,7 +48,7 @@ const ContactList = () => {
           className="car-body"
           style={{ position: "relative", height: "relative" }}
         >
-          <table>
+          <table className="table primary table-striped">
             <thead>
               <tr>
                 <th>Name</th>
