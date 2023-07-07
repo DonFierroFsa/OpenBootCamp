@@ -11,6 +11,8 @@ import GreetingStyle from './components/pure/greetingStyle';
 import ClockRfc from './components/pure/clock.rfc';
 import Father from './components/container/father';
 import ContactList from './components/container/contact_list';
+import OptionalRender from './components/pure/optionalRender';
+import Excercise12 from "../src/components/pure/excercise12"
 
 
 function App() {
@@ -23,10 +25,12 @@ function App() {
               <h3>Contenido del props.children</h3>
               <h3>Mas contenido Children</h3>
             </Ejemplo4> */}
-            <ContactList></ContactList>
+            {/* <ContactList></ContactList> */}
+            {/* <OptionalRender></OptionalRender> */}
             {/* <GreetingStyle name="Adrian"></GreetingStyle> */}
             {/* <ClockRfc></ClockRfc> */}
             {/* <Father></Father> *Gestion de eventos */}
+            {<Excercise12></Excercise12>}
         </div>
       {/* </header> */}
     </div>
